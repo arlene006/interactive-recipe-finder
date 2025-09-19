@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Interactive Recipe Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🍳 Interactive Recipe Finder</h1>
+    <nav>
+      <a href="favorites.html">⭐ Favorites</a>
+    </nav>
+
+    <div class="search-container">
+      <input id="ingredientInput" placeholder="Enter ingredients (e.g. tomato, onion, chicken)" />
+      <button id="searchBtn">🔍 Search</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="recipes" class="recipe-list"></section>
+  </main>
+
+  <!-- Modal (shared view for full recipe) -->
+  <div id="recipeModal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="close" id="closeModalBtn">&times;</button>
+      <div id="modalDetails"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Made with ❤️ for Internship Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
