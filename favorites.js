@@ -1,5 +1,5 @@
 // ====== Replace with your Spoonacular API key ======
-const apiKey = "391ff3bb9618468c819b4781c4092f5e";
+const apiKey = "your_api_key";
 // ==================================================
 
 const favContainer = document.getElementById("favoriteRecipes");
